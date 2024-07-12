@@ -148,3 +148,31 @@ switch (fruit) {
   default:
     console.log("No fruit Selected");
 }
+console.clear();
+// Days of the weeks
+let day = "December";
+switch (day) {
+  case "monday":
+    console.log("Monday is the 1 day of the week");
+    break;
+  case "Tuesday":
+    console.log("Tuesdasy is the 1day of the week");
+    break;
+  case "Wensday":
+    console.log("wensday is the 3 day of the week");
+    break;
+  case "Thursday":
+    console.log("Thursday is the 4 day of the week");
+    break;
+  case "Friday":
+    console.log("Friday is the 5 day of the week");
+    break;
+  case "Saturday":
+    console.log("Saturday is the 6 day of the week");
+    break;
+  case "Sunday":
+    console.log("Sunday is the 7 day of the week");
+    break;
+  default:
+    console.log("no day selected");
+}
