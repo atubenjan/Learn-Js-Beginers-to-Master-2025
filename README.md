@@ -4,7 +4,6 @@
 
 #FULLSTACK javascript 15hrs:55mins
 30Days
-
 Beginners
 Intermidiate
 DOM

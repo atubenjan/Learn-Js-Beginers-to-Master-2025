@@ -109,3 +109,42 @@ if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
 } else {
   console.log(year + " is  not a leap year");
 }
+
+console.clear();
+
+// Switch Statement in Js
+// its used to execute a block of code amaomg based on the value of expression
+/*
+switch(expression){
+  case value 1:
+    // code executed if the expression ==== value
+    break;
+  case value 2:
+     // code executed if the expression ==== value
+     break;
+  case value 2:
+      // code executed if the expression ==== value
+     break;
+     default:
+      // executes when ther is no matched
+}
+*/
+
+// Example
+let fruit = "innocent";
+switch (fruit) {
+  case "apple":
+    console.log("Apple is Selected");
+    break;
+  case "banana":
+    console.log("Banana is Selected");
+    break;
+  case "pawpaw":
+    console.log("pawpaw is Selected");
+    break;
+  case "innocent":
+    console.log("innocent is Selected");
+    break;
+  default:
+    console.log("No fruit Selected");
+}
