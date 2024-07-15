@@ -3,13 +3,14 @@
 # Solve 60+ js problems/challanges
 
 #FULLSTACK javascript 15hrs:55mins
+DO 2 HOURS EACH DAY WITH ME ENJOY JS
 30Days
 Beginners
 Intermidiate
 DOM
 GSAP
 Advance
-React.js Developed by facebook in 2010
+React.js
 Node.js
 Express.js
 MongoDB

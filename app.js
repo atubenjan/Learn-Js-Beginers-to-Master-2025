@@ -41,7 +41,7 @@ console.log(facebook);
 // 5. Finally log all variables to the console.
 //If Statement  using greater sign
 
-/* if (condition)
+/* if (expression)
 {
 Block of code or statement to be executed if the condition is true
 
@@ -176,3 +176,37 @@ switch (day) {
   default:
     console.log("no day selected");
 }
+
+//Month of the year by Adlan
+//Grades by innocent a-excellent b-good
+//For-Loop, while-loop do-while infinite-loo
+console.clear();
+/* for-loop
+for (initialization; condition; increament/decrement)
+{
+// code to be executed
+}
+
+*/
+for (let i = 5; i <= 100; i++) {
+  console.log(i);
+}
+/* let i = 3 // creating avariable i  we set i to avalue of 3
+condintion says check if i <= 7
+i++ will add 1 on i
+*/
+console.clear();
+// counting down from 10 to 1
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+console.clear();
+//summing numbers 1 to 10
+
+let sum = 0;
+for (let i = 1; i <= 10; i++) {
+  sum += i;
+}
+console.log("sum:", sum);
+
+// Print your name & numbers from 0 through 1000
