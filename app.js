@@ -210,3 +210,119 @@ for (let i = 1; i <= 10; i++) {
 console.log("sum:", sum);
 
 // Print your name & numbers from 0 through 1000
+console.clear();
+for (let i = 5; i <= 10; i++) {
+  console.log(i);
+}
+console.clear();
+/* Nested for loop
+for(let i = 0; i < outerLimit; i++)
+{
+  for(let j = 0; i < innerLimit; j++)
+{
+//code to be executed
+}
+}*/
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= 5; j++) {
+    console.log(i * j);
+  }
+  console.log("--");
+}
+console.clear();
+
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+function displayMatrix(mat) {
+  for (let i = 0; i < mat.length; i++) {
+    let row = "";
+    for (let j = 0; j < mat[i].length; j++) {
+      row += mat[i][j] = +"";
+    }
+    console.log(row.trim());
+  }
+}
+displayMatrix(matrix);
+/// REvert to this
+console.clear();
+/* while (condition) {
+ code to be executed
+}*/
+
+let i = 10;
+while (i < 100) {
+  console.log(i);
+  i++;
+}
+console.clear();
+// calculate a sum of numbers fro 1 to 10
+let num1 = 1;
+let sum1 = 0;
+while (num1 <= 10) {
+  sum1 += num1;
+  num1++;
+}
+console.log("Sum is:", sum1);
+/* factorial of 5!
+guess the number Game
+print Even Numbers
+Count Down Timer
+
+
+*/
+console.clear();
+let martha = 9;
+let factorial = 1;
+
+while (martha > 0) {
+  factorial *= martha;
+  martha--;
+}
+console.log("Factorial of 5 is:", factorial);
+
+console.clear();
+/*let secNum = 21;
+let aguess;
+let attempts = 0;
+
+while (aguess !== secNum) {
+  aguess = parseInt(prompt("Guess the number  between 10 and 30:"));
+  attempts++;
+}
+console.log("Congs", attempts, "attempts.");
+*/
+console.clear();
+
+//ARRAYS
+// using Array Literals
+let fruits = ["apple", "pawpaw", "orange"];
+console.log(fruits);
+// Accessing Elements
+console.log(fruits[0]);
+console.log(fruits[2]);
+console.log(fruits[1]);
+let animals = ["dog", "lion", "monkey", "cat"];
+console.log(animals);
+let cars = ["BMW", " volvo", "subaru", "jeep", "Benz"];
+console.log(cars);
+console.log(cars[2]);
+console.log(cars[4]);
+// using Array Constructor
+let numbers = new Array(1, 2, 3, 4, 5, 6, 7);
+console.log(numbers);
+console.log(numbers[4]);
+// Empty Array
+let emptyArray = [];
+console.log(emptyArray);
+// Modifying Elements
+let fruitz = ["apple", "pawpaw", "orange"];
+console.log(fruitz);
+fruitz[2] = "banana";
+console.log(fruitz);
+//Adding and lement in array
+fruitz.push("Mango", "Tomato");
+console.log(fruitz);
