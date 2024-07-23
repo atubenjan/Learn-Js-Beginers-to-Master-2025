@@ -326,3 +326,39 @@ console.log(fruitz);
 //Adding and lement in array
 fruitz.push("Mango", "Tomato");
 console.log(fruitz);
+/*
+let birds = ['penguin' , 'doves' ,'parrots'];
+1.Modify doves to Hens;
+2.add benja and innocent and martha and  willian;
+3.remove parrots
+4.shift 
+5.unshift
+6.splice
+7.splice
+8.forEach
+9.map
+10.filter
+11.reduce*/
+console.clear();
+let fruitm = ["apple", "pawpaw", "orange", "mango"];
+console.log(fruitm);
+console.log(fruitm[0]);
+console.log(fruitm[1]);
+console.log(fruitm[2]);
+console.log(fruitm[3]);
+console.clear();
+// Array methods
+// pop();  Removes the last element from the array and returns that element
+let fruit1 = ["apple", "pawpaw", "orange", "mango"];
+console.log(fruit1);
+let last = fruit1.pop();
+console.log(fruit1);
+// push();
+fruit1.push("hen", "cow", "dog");
+console.log(fruit1);
+//shift
+let first = fruit1.shift();
+console.log(fruit1);
+//unshift
+fruit1.unshift("apple", "cat");
+console.log(fruit1);
