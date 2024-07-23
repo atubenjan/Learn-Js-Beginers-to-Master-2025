@@ -362,3 +362,24 @@ console.log(fruit1);
 //unshift
 fruit1.unshift("apple", "cat");
 console.log(fruit1);
+//splice,reverse,sort,copyWithin,fill,concat,join,slice,toString,indexOf,lastIndexOf.includes,flat,flatMap,forEach,Map
+console.clear();
+// OBJECTS
+// Object Literals
+let person = {
+  name: "benjamin",
+  age: 30,
+  color: "brown",
+  nationality: "Congolese",
+  Marital_Status: "Singular",
+};
+console.log(person);
+// Object Constructors
+
+let persons = new Object();
+persons.name = "Martha";
+persons.age = 25;
+persons.color = " black";
+persons.nationality = "kenyan";
+console.log(persons);
+//Accessing Objects using Dot Notation and Bracket Notation
