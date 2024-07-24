@@ -18,9 +18,3 @@ console.log((car.type = "Toyota"));
 console.log((car.wheels = 4));
 console.log(car);
 console.clear();
-// OBJECTS
-let person = {
-  name: "benjamin",
-  age: 30,
-};
-console.log(person);

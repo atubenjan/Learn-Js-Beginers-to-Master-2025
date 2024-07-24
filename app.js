@@ -382,4 +382,57 @@ persons.age = 25;
 persons.color = " black";
 persons.nationality = "kenyan";
 console.log(persons);
-//Accessing Objects using Dot Notation and Bracket Notation
+//Accessing Objec3s using Dot Notation and Bracket Notation
+
+/*console.clear();
+const defaultSettings = {
+  theme: "dark",
+  showNotifications: true,
+  saveHistory: true,
+};
+const userSettings = {
+  theme: "light",
+  saveHistory: false,
+};
+const settings = Object.assign({}, defaultSettings, userSettings);
+console.log(settings);*/
+let person1 = {
+  name: "benjamin",
+  age: 30,
+  color: "brown",
+  nationality: "Congolese",
+  Marital_Status: "Singular",
+};
+//Dot Notation
+console.log(person1.name);
+// Bracket Notation
+console.log(person1["Marital_Status"]);
+console.clear();
+//Functions : Building Blocks  they allow us to encapsulate code into reusable units
+// Function Declaraion
+function greet(name) {
+  return `Hello, ${name}`;
+}
+// Call the function and store the results
+const message = greet("Addie");
+// Output the results
+console.log(message);
+console.clear();
+// multiple parameters
+function addNumbers(a, b, c) {
+  return a + b + c;
+}
+console.log(addNumbers(5, 4, 7));
+//Default Parameter
+function multiply(a, b = 4) {
+  return a * b;
+}
+console.log(multiply(2));
+//Anonymous Functions
+const subtract = function (a, b) {
+  return a - b;
+};
+console.log(subtract(10, 5));
+// Arrow Functions
+const divide = (a, b) => a / b;
+console.log(divide(10, 5));

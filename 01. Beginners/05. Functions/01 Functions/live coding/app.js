@@ -19,7 +19,7 @@ function sayHello(username) {
   console.log(`Hello ${username}`);
 }
 
-sayHello("HuXn"); // calling function
+sayHello("Benja"); // calling function
 // -------------------------------
 // The return statement can be used to return the value to a function call.
 function add(numberOne, numberTwo) {
