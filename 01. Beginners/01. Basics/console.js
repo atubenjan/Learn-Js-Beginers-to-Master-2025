@@ -6,7 +6,7 @@ console.log("Hello World");
 
 console.error("This is an ERROR");
 console.warn("Warning");
-console.table({ name: "benjamin", age: 20, location: ["USA"] });
+console.table({ name: "Benja", age: 20, location: ["USA"] });
 
 // ---------- COMMENTS ----------
 

@@ -1,5 +1,5 @@
-let firstName = "Benjamin";
-let lastName = "Atugonza";
+let firstName = "Benja";
+let lastName = "WebDev";
 let fullName = firstName + lastName;
 // console.log(fullName);
 
@@ -24,7 +24,7 @@ let fullName = firstName + lastName;
 // console.log(fullName.split("").join("-"));
 
 //7. INCLUDES
-// console.log(fullName.includes("HuXn"));
+// console.log(fullName.includes("Benja"));
 
 //8. TRIM
 // console.log(fullName.trim());

@@ -1,7 +1,7 @@
 // (reserved keyword): (variable name): (type of value)
 
 let variable; // undefined
-let name = "Atgonza Benjamin";
+let name = "Benja WebDev";
 console.log(name);
-const channelName = "synthLogic Academy";
+const channelName = "WebDev Academy";
 console.log(channelName);

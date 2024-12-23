@@ -3,7 +3,7 @@ function sayHello(username) {
   console.log(`Hello ${username}`);
 }
 
-sayHello("Benjamin");
+sayHello("Benja");
 
 // Function Expressions
 const greetings = function (user) {

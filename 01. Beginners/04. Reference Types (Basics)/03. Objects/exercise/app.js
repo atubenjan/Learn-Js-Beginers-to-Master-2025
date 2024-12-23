@@ -17,4 +17,3 @@ console.log((car.type = "Toyota"));
 // Add new properties
 console.log((car.wheels = 4));
 console.log(car);
-console.clear();

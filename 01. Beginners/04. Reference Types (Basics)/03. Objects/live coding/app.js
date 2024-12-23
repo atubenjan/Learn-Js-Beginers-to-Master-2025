@@ -7,7 +7,7 @@
 // ------------------------
 // Creating Object
 let person = {
-  firstName: "HuXn",
+  firstName: "Benja",
   lastName: "WebDev",
   age: 18,
   location: ["Planet", "Earth"],

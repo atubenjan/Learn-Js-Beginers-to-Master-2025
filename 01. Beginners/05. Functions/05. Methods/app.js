@@ -17,7 +17,7 @@
 // ------------------------------------
 
 const person = {
-  name: "Benjamin",
+  name: "Benja",
   age: 19,
   greet: function greet() {
     return `Hello, my name is ${person.name} and I am ${person.age} years old.`;
